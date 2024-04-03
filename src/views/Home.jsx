@@ -23,9 +23,9 @@ export const Home = () => {
 
 	return (
 		<Container>
-			<h1>HOME</h1>
+			<h1>Bienvenidos</h1>
 			<Link to="/contact">
-				<button>IR A CONTACTO</button>
+				<button>CONTACTANOS</button>
 			</Link>
 			<Container className="d-flex flex-wrap">
 				{products.map(product => (
